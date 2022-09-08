@@ -1,6 +1,6 @@
 # [UNSTALKWEB]
 
-Scrape html pages to find emails.
+Scrape web pages to find emails.
 
 ## Single page scrape
 
