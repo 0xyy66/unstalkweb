@@ -25,11 +25,11 @@ Ouput
 [UNSTALKWEB]
 by yy66 [@0xyy66]  -  Scrape html pages to find emails
 ===============================================================
-[x] Scraping http://sitetopwn.com/contacts
+[x] Scraping https://sitetopwn.com/contacts
 2 email(s) found
 =============================================================== 
 
-Url scraped: http://sitetopwn.com/contacts
+Url scraped: https://sitetopwn.com/contacts
 Emails found: 2
 
 goldie@sitetopwn.com
@@ -54,18 +54,18 @@ by yy66 [@0xyy66]  -  Scrape html pages to find emails
 [x] File: ffuf.json
 ===============================================================
 
-[x] Scraping http://sitetopwn.com/about
+[x] Scraping https://sitetopwn.com/about
 0 email(s) found
-[x] Scraping http://sitetopwn.com/contacts
+[x] Scraping https://sitetopwn.com/contacts
 2 email(s) found
-[x] Scraping http://sitetopwn.com/home
+[x] Scraping https://sitetopwn.com/home
 1 email(s) found
-[x] Scraping http://sitetopwn.com/tour
+[x] Scraping https://sitetopwn.com/tour
 0 email(s) found
 ===============================================================
 
-Email(s) found at http://sitetopwn.com/about
-Email(s) found at http://sitetopwn.com/contacts
+Email(s) found at https://sitetopwn.com/about
+Email(s) found at https://sitetopwn.com/contacts
 Email(s) found: 3
 
 info@sitetopwn.com
