@@ -70,8 +70,9 @@ def scrape(url):
     print("[x] Scraping " + Fore.RED + url)
     try:
         html = req.get(url)
-    except req.exceptions.ConnectionError:
+    except req.exceptions.ConnectionError as e:
         print(Fore.RED + "ERROR: Can't connect to {}".format(url))
+        print(e)
         sys.exit(0)
     soup = bs(html.content, 'html.parser')
     email = search_email(soup.get_text())
