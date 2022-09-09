@@ -1,6 +1,6 @@
 # [UNSTALKWEB]
 
-Scrape web pages to find emails.
+Scrape web pages to find email addresses.
 
 ## Single page scrape
 
@@ -23,14 +23,14 @@ Ouput
 ``` text
 ===============================================================
 [UNSTALKWEB]
-by yy66 [@0xyy66]  -  Scrape html pages to find emails
+by yy66 [@0xyy66]  -  Scrape html pages to find email addresses
 ===============================================================
 [x] Scraping https://sitetopwn.com/contacts
-2 email(s) found
+2 email addresses found
 =============================================================== 
 
 Url scraped: https://sitetopwn.com/contacts
-Emails found: 2
+Email addreses found: 2
 
 goldie@sitetopwn.com
 bob@sitetopwn.com
@@ -49,24 +49,24 @@ Output
 ``` text
 ===============================================================
 [UNSTALKWEB]
-by yy66 [@0xyy66]  -  Scrape html pages to find emails
+by yy66 [@0xyy66]  -  Scrape html pages to find email addresses
 ===============================================================
 [x] File: ffuf.json
 ===============================================================
 
 [x] Scraping https://sitetopwn.com/about
-0 email(s) found
+0 email addresses found
 [x] Scraping https://sitetopwn.com/contacts
-2 email(s) found
+2 email addresses found
 [x] Scraping https://sitetopwn.com/home
-1 email(s) found
+1 email addresses found
 [x] Scraping https://sitetopwn.com/tour
-0 email(s) found
+0 email addresses found
 ===============================================================
 
-Email(s) found at https://sitetopwn.com/about
-Email(s) found at https://sitetopwn.com/contacts
-Email(s) found: 3
+Email addresses found at https://sitetopwn.com/about
+Email addresses found at https://sitetopwn.com/contacts
+Email addresses found: 3
 
 info@sitetopwn.com
 goldie@sitetopwn.com

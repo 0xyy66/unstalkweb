@@ -76,7 +76,7 @@ def scrape(url):
         sys.exit(0)
     soup = bs(html.content, 'html.parser')
     email = search_email(soup.get_text())
-    print(Fore.CYAN + "{} email(s) found".format(len(email)))
+    print(Fore.CYAN + "{} email addresses found".format(len(email)))
     result = {'url': url, 'email': email}
     return result
 
@@ -90,11 +90,11 @@ def print_result(result):
     print(banner.frame, '\n')
     print('[x] Url scraped: ' + Style.BRIGHT + result['url'])
     if len(result['email']) > 0:
-        print('Email(s) found: ')
+        print('Email addresses found: ')
         for e in result['email']:
             print(Fore.GREEN + e)
     else:
-        print(Fore.RED + 'No emails found')
+        print(Fore.RED + 'No email addresses found')
 
 # verbose multiple results
 def verbose_print_results(results):
@@ -104,16 +104,16 @@ def verbose_print_results(results):
     for result in results:
         print('\n[x] Url scraped: ' + Style.BRIGHT + result['url'])
         if len(result['email']) > 0:
-            print('Email(s) found: ')
+            print('Email addresses found: ')
             for e in result['email']:
                 print(Fore.GREEN + e)
                 found += 1
         else:
-            print(Fore.RED + 'No emails found')
+            print(Fore.RED + 'No email addresses found')
     #print all the emails
     print()
     if found > 0:
-        print('[x] Email(s) list:')
+        print('[x] Email addresses list:')
         for r in results:
             for e in r['email']:
                 print(Fore.GREEN + e)
@@ -124,9 +124,9 @@ def print_results(results):
     found = 0
     for r in results:
         if len(r['email']) > 0:
-            print('Email(s) found at ' + Style.BRIGHT + r['url'])
+            print('Email addresses found at ' + Style.BRIGHT + r['url'])
             found += 1
-    print('Email(s) found: ' + Fore.CYAN + str(found))
+    print('Email addresses found: ' + Fore.CYAN + str(found))
     for r in results:
         for e in r['email']:
             print(Fore.GREEN + e)
