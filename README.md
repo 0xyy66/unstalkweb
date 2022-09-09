@@ -10,7 +10,7 @@ Scrape web pages to find emails.
 
 ## More pages from FFUF scan
 
-The script works well with JSON output files obatained from a [FFUF](https://github.com/ffuf/ffuf) scan.
+Unstalkweb works well with JSON output files obatained from a [FFUF](https://github.com/ffuf/ffuf) scan.
 
 ### Generate a JSON with FFUF
 
@@ -72,3 +72,5 @@ info@sitetopwn.com
 goldie@sitetopwn.com
 bob@sitetopwn.com
 ```
+
+Note: if a connection takes too much I advice to stop the script because the remote host may have closed the connection without response.
